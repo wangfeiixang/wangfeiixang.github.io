@@ -3,7 +3,7 @@
 		{
 			"title":"40°芝华士12年苏格兰威士忌酒版50ml",
 			"label":["限时抢购"],
-			"img":"/static/images/list01.jpg",
+			"img":"./static/images/list01.jpg",
 			"price":"59.00",
 			"sale":"120",
 			"number":"1",
@@ -18,7 +18,7 @@
 		{
 			"title":"【保乐力加】40°英国芝华士12年苏格兰威士忌500ml",
 			"label":["限时抢购","单品加价购"],
-			"img":"/static/images/list02.jpg",
+			"img":"./static/images/list02.jpg",
 			"price":"118.00",
 			"sale":"190",
 			"number":"2",
@@ -33,7 +33,7 @@
 		{
 			"title":"40°美国杰克丹尼700ml Jack Daniels",
 			"label":["限时抢购"],
-			"img":"/static/images/list03.jpg",
+			"img":"./static/images/list03.jpg",
 			"price":"139.00",
 			"sale":"10",
 			"number":"3",
@@ -48,7 +48,7 @@
 		{
 			"title":"41度梅赛宝威士忌酒正品洋酒高端威士忌700ML 送木礼盒",
 			"label":["限时抢购"],
-			"img":"/static/images/list04.jpg",
+			"img":"./static/images/list04.jpg",
 			"price":"44.00",
 			"sale":"306",
 			"number":"4",
@@ -63,7 +63,7 @@
 		{
 			"title":"40°轩尼诗VSOP干邑白兰地700ml",
 			"label":["限时抢购"],
-			"img":"/static/images/list05.jpg",
+			"img":"./static/images/list05.jpg",
 			"price":"369.00",
 			"sale":"148",
 			"number":"5",
@@ -78,7 +78,7 @@
 		{
 			"title":"【礼盒】40°法国（原瓶进口）皇马名仕VSOP洋酒白兰地700ml*1瓶",
 			"label":["限时抢购","买赠"],
-			"img":"/static/images/list06.jpg",
+			"img":"./static/images/list06.jpg",
 			"price":"178.00",
 			"sale":"210",
 			"number":"6",
@@ -93,7 +93,7 @@
 		{
 			"title":"96°波兰 生命之水伏特加500ml",
 			"label":["限时抢购"],
-			"img":"/static/images/list07.jpg",
+			"img":"./static/images/list07.jpg",
 			"price":"79.00",
 			"sale":"240",
 			"number":"7",
@@ -108,7 +108,7 @@
 		{
 			"title":"40°法国香奈XO白兰地700ml",
 			"label":["限时抢购"],
-			"img":"/static/images/list08.jpg",
+			"img":"./static/images/list08.jpg",
 			"price":"89.00",
 			"sale":"150",
 			"number":"8",
@@ -123,7 +123,7 @@
 		{
 			"title":"芝华士12年威士忌500ml+百龄坛500ml",
 			"label":["限时抢购"],
-			"img":"/static/images/list09.jpg",
+			"img":"./static/images/list09.jpg",
 			"price":"208.00",
 			"sale":"13",
 			"number":"9",
@@ -138,7 +138,7 @@
 		{
 			"title":"40°芝华士12年苏格兰威士忌酒版50ml",
 			"label":["限时抢购"],
-			"img":"/static/images/list10.jpg",
+			"img":"./static/images/list10.jpg",
 			"price":"59.00",
 			"sale":"70",
 			"number":"10",
@@ -153,7 +153,7 @@
 		{
 			"title":"【保乐力加】40°法国马爹利名士干邑白兰地350ml",
 			"label":["限时抢购"],
-			"img":"/static/images/list11.jpg",
+			"img":"./static/images/list11.jpg",
 			"price":"559.00",
 			"sale":"107",
 			"number":"11",
@@ -168,7 +168,7 @@
 		{
 			"title":"40°格兰苏格兰威士忌700ml",
 			"label":["限时抢购"],
-			"img":"/static/images/list12.jpg",
+			"img":"./static/images/list12.jpg",
 			"price":"529.00",
 			"sale":"60",
 			"number":"12",
