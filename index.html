@@ -1,14 +1,256 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>demo事例</title>
-</head>
-<body>
-	<h3>1.vue-demo</h3>
-	<p>模仿酒仙网--观看地址<a href="./vue-jiuxian/dist/index.html">jiuxian</a></p>	
-	<p><a href="https://github.com/wangfeiixang/jiuxian">jiuxian源码地址</a></p>	
-</body>
-	
-<script src="./canvas.js"></script>	
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>有朋自远方来，不亦乐乎</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="博客" />
+		<meta name="keywords" content="博客" />
+		<!--[if lte IE 8]><script src="./static/css/ie/html5shiv.js"></script><![endif]-->
+		<script src="./static/js/jquery.min.js"></script>
+		<script src="./static/js/skel.min.js"></script>
+		<script src="./static/js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="./static/css/skel.css" />
+			<link rel="stylesheet" href="./static/css/style.css" />
+			<link rel="stylesheet" href="./static/css/style-wide.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="./static/css/ie/v8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<div id="header">
+				<span class="logo icon fa-paper-plane-o"></span>
+				<h1>欢迎来到我的博客</h1>
+				<audio autoplay="autoplay" src="./static/audio/music.mp3"></audio>	
+				<p>执杯饮洱茶，伏案阅唐书。</p>
+				<p>曲妙惜人古，音深叹酒无。</p>
+				<p>文章多奥义，诗句赋柴庐。</p>
+				<p>学海寻知己，南山隐大儒。</p>
+			</div>
+		<!-- Main -->
+			<div id="main">
+			
+				<header class="major container small">
+					<h2>从事3年前端开发
+					<br />
+					PC端官网、后台管理系统
+					<br />
+					移动端webapp</h2>
+					<!--
+					<p>Tellus erat mauris ipsum fermentum<br />
+					etiam vivamus nunc nibh morbi.</p>
+					-->
+				</header>
+				
+				<div class="box alt container">
+					<section class="feature left">
+						<a  class="image icon fa-signal"><img src="./static/images/pic01.jpg" alt="" /></a>
+						<div class="content">
+							<h3>个人模仿酒仙网的vue开发</h3>
+							<p><a href="./vue-jiuxian/dist/index.html">jiuxian观看地址</a></p>
+							<p><a href="https://github.com/wangfeiixang/jiuxian">jiuxian源码地址</a></p>
+						</div>
+					</section>
+					<section class="feature right">
+						<a  class="image icon fa-code"><img src="./static/images/pic02.jpg" alt="" /></a>
+						<div class="content">
+							<h3>后台管理系统</h3>
+							<p>暂时没整理完</p>
+						</div>
+					</section>
+					<section class="feature left ">
+						<a  class="image icon fa-mobile"><img src="./static/images/pic03.jpg" alt="" /></a>
+						<div class="content">
+							<h3>H5转盘小游戏</h3>
+							<p>暂时没整理完</p>
+						</div>
+					</section>
+				</div>
+				
+				<!--
+				<div class="box container">
+					<header>
+						<h2>A lot of generic stuff</h2>
+					</header>
+					<section>
+						<header>
+							<h3>Paragraph</h3>
+							<p>This is the subtitle for this particular heading</p>
+						</header>
+						<p>Phasellus nisl nisl, varius id <sup>porttitor sed pellentesque</sup> ac orci. Pellentesque 
+						habitant <strong>strong</strong> tristique <b>bold</b> et netus <i>italic</i> malesuada <em>emphasized</em> ac turpis egestas. Morbi 
+						leo suscipit ut. Praesent <sub>id turpis vitae</sub> turpis pretium ultricies. Vestibulum sit 
+						amet risus elit.</p>
+					</section>
+					<section>
+						<header>
+							<h3>Blockquote</h3>
+						</header>
+						<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget.
+						tempus euismod. Vestibulum ante ipsum primis in faucibus.</blockquote>
+					</section>
+					<section>
+						<header>
+							<h3>Divider</h3>
+						</header>
+						<p>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra 
+						ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci 
+						facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam 
+						tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices 
+						posuere cubilia.</p>
+						<hr />
+						<p>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra 
+						ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci 
+						facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam 
+						tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices 
+						posuere cubilia.</p>
+					</section>
+					<section>
+						<header>
+							<h3>Unordered List</h3>
+						</header>
+						<ul class="default">
+							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
+							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
+							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
+							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
+						</ul>
+					</section>
+					<section>
+						<header>
+							<h3>Ordered List</h3>
+						</header>
+						<ol class="default">
+							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
+							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
+							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
+							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
+						</ol>
+					</section>
+					<section>
+						<header>
+							<h3>Table</h3>
+						</header>
+						<div class="table-wrapper">
+							<table class="default">
+								<thead>
+									<tr>
+										<th>ID</th>
+										<th>Name</th>
+										<th>Description</th>
+										<th>Price</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>45815</td>
+										<td>Something</td>
+										<td>Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</td>
+										<td>29.99</td>
+									</tr>
+									<tr>
+										<td>24524</td>
+										<td>Nothing</td>
+										<td>Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</td>
+										<td>19.99</td>
+									</tr>
+									<tr>
+										<td>45815</td>
+										<td>Something</td>
+										<td>Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</td>
+										<td>29.99</td>
+									</tr>
+									<tr>
+										<td>24524</td>
+										<td>Nothing</td>
+										<td>Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</td>
+										<td>19.99</td>
+									</tr>
+								</tbody>
+								<tfoot>
+									<tr>
+										<td colspan="3"></td>
+										<td>100.00</td>
+									</tr>
+								</tfoot>
+							</table>
+						</div>
+					</section>
+					<section>
+						<header>
+							<h3>Form</h3>
+						</header>
+						<form method="post" action="#">
+							<div class="row">
+								<div class="6u">
+									<label for="name">Name</label>
+									<input class="text" type="text" name="name" id="name" value="" placeholder="John Doe" />
+								</div>
+								<div class="6u">
+									<label for="email">Email</label>
+									<input class="text" type="text" name="email" id="email" value="" placeholder="johndoe@domain.tld" />
+								</div>
+							</div>
+							<div class="row">
+								<div class="12u">
+									<label for="subject">Subject</label>
+									<input class="text" type="text" name="subject" id="subject" value="" placeholder="Enter your subject" />
+								</div>
+							</div>
+							<div class="row">
+								<div class="12u">
+									<label for="subject">Message</label>
+									<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+								</div>
+							</div>
+							<div class="row">
+								<div class="12u">
+									<ul class="actions">
+										<li><input type="submit" value="Send" /></li>
+										<li><input type="reset" value="Reset" class="alt" /></li>
+									</ul>
+								</div>
+							</div>
+						</form>
+					</section>
+				</div>
+				-->
+				
+				<footer class="major container small">
+					<h3>更新未完，敬请期待</h3>
+					<!-- <p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus.</p>
+					<ul class="actions">
+						<li><a  class="button">Join our crew</a></li>
+					</ul> -->
+				</footer>
+
+			</div>
+			
+		<!-- Footer -->
+			<div id="footer">
+				<div class="container small">
+					<header class="major last">
+						<h2>致未来的自己</h2>
+					</header>
+
+					<p>不忘初心，方得始终，活着，即是一种修行。</p>
+				
+					<ul class="icons">
+						<li><a  class="icon fa-phone"><span class="label">phone</span></a></li>
+						<li><a  class="icon fa-weixin"><span class="label">weixin</span></a></li>
+						<li><a  class="icon fa-qq"><span class="label">QQ</span></a></li>
+						<li><a target="_blank" href="https://github.com/wangfeiixang" class="icon fa-github"><span class="label">Github</span></a></li>
+					</ul>
+					
+					<ul class="copyright">
+						<li>Copyright &copy; 2018, All rights Reserved.</li>
+					</ul>
+			
+				</div>
+			</div>
+			<script src="./static/js/canvas.js"></script>	
+
+
+	</body>
 </html>
