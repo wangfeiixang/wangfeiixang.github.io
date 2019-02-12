@@ -105,7 +105,7 @@ var turntable = {
     ajax: function () { //第一次请求数据
         var that = this;
         $.ajax({
-            url: "./draw/001-查询用户当前状态应答.json",
+            url: "./draw/001.serachStatus.json",
             dataType: "json",
             async: false,
             data: {
@@ -164,13 +164,13 @@ var turntable = {
         var url = '';
         switch (type) {
             case 0:
-                url = "./draw/003-查询抽奖结果应答.json";
+                url = "./draw/003.searchResponse.json";
                 break;
             case 1:
-                url = "./draw/003-查询抽奖结果应答try.json";
+                url = "./draw/003.searchResponse.1.json";
                 break;
             default:
-                url = "./draw/003-查询非第一次抽奖结果应答.json";
+                url = "./draw/003.searchResponse.2.json";
                 break;
         }
 
@@ -329,7 +329,7 @@ $("#rotate").click(function () {
 
     //请求数据
     $.ajax({
-        url: "./draw/002-开始抽奖应答.json",
+        url: "./draw/002.drawResponse.json",
         dataType: "json",
         // async:false,
         data: {},
