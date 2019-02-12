@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Ratchet">
+    <title>转盘抽奖</title>
+    <link rel="stylesheet" type="text/css" href="../css/base.css">
+    <link rel="stylesheet" type="text/css" href="../css/turntable.css">
+    <script src="../js/base.js"></script>
+
+
+</head>
+
+<body>
+    <div class="content">
+        <div class="topBox">
+            <div class="leftTop">
+                <img id="record" src="../imgs/btn-left.png" />
+            </div>
+            <div class="centertop">
+                <p></p>
+            </div>
+            <div class="rightTop">
+                <img id="rule" src="../imgs/rules.png" />
+            </div>
+        </div>
+        <div class="turntable">
+            <div id="outer-cont">
+                <div id="prize-list">
+                    <ul id="getPrize">
+                        <li>恭喜<span>186xxxx5718</span>抽中红包奖金<span>10</span>元</li>
+                        <li>恭喜<span>136xxxx7954</span>抽中红包奖金<span>50</span>元</li>
+                        <li>恭喜<span>138xxxx8663</span>抽中红包奖金<span>10</span>元</li>
+                        <li>恭喜<span>133xxxx4785</span>抽中红包奖金<span>10</span>元</li>
+                        <li>恭喜<span>176xxxx5210</span>抽中红包奖金<span>50</span>元</li>
+                    </ul>
+                </div>
+                <div id="outer" class="outer">
+                    <img id="rotateImg" src="http://f.appstore.zshiliu.com/clubberimg/h5active/turntable.png" />
+                </div>
+            </div>
+            <div id="inner-cont">
+                <div id="inner" class="inner">
+                    <div id="rotate"></div>
+                    <img class="btnImg" src="http://f.appstore.zshiliu.com/clubberimg/h5active/btn-no.png" />
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <div class="bottomTxt">
+            <p>10个<img src="http://f.appstore.zshiliu.com/clubberimg/h5active/bamboo.jpg" alt="">可以抽一次，当前持有<img src="http://f.appstore.zshiliu.com/clubberimg/h5active/bamboo.jpg"
+                    alt=""><span id="bamboo"></span>个</p>
+        </div>
+    </div>
+    <div class="rulesModal modal">
+        <div class="rulesBox box">
+            <div class="rbContent">
+                <h1>&bull;<span></span>抽奖说明<span></span>&bull;</h1>
+                <div class="flexBox">
+                    <span>1.</span>
+                    <p>开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖!!!</p>
+                </div>
+                <div class="flexBox">
+                    <span>2.</span>
+                    <p>开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖!!!</p>
+                </div>
+                <div class="flexBox">
+                    <span>3.</span>
+                    <p>开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖!!!</p>
+                </div>
+                <div class="flexBox">
+                    <span>4.</span>
+                    <p>开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖开始抽奖!!!</p>
+                </div>
+            </div>
+            <div class="rulesImg">
+                <img id="close" src="http://f.appstore.zshiliu.com/clubberimg/h5active/close.png" alt="" />
+            </div>
+        </div>
+    </div>
+    <div class="recordModal modal">
+        <div class="recordBox box">
+            <h1>&bull;<span></span>抽奖记录<span></span>&bull;</h1>
+            <div class="recordContent">
+                <div class="missRecord">
+                    <img src="../imgs/nothing.jpg" />
+                    <p>您当前没有任何抽奖记录</p>
+                </div>
+                <div class="prizeRecord">
+
+                </div>
+            </div>
+            <div class="rulesImg">
+                <img id="close" src="http://f.appstore.zshiliu.com/clubberimg/h5active/close.png" alt="" />
+            </div>
+        </div>
+    </div>
+    <div class="prizeModal">
+        <div class="prizeBox">
+            <img src="../imgs/prize.png" alt="" />
+        </div>
+        <div class="prizeInfo">
+            <p class="info_one">恭喜您</p>
+            <p class="info_two">抽中<span class="win"></span></p>
+            <p class="info_three"><span class="bonus"></span></p>
+        </div>
+        <div class="prizeBtn">
+            <div class="btnDraw">
+                <img class="returnBtn" src="http://f.appstore.zshiliu.com/clubberimg/h5active/btn-bg.png">
+                <p class="btnInfo btnGet">立即领取</p>
+            </div>
+            <div class="btnShare">
+                <img class="shareBtn" src="../imgs/prizebtn.png">
+                <div>
+                    <div>
+                        <p class="shareInfo btnGet" id="shareGame">分享</p>
+                    </div>
+                </div>
+            </div>
+            <p class="prizeMs">奖励发放请查看抽奖说明</p>
+        </div>
+    </div>
+    <div class="missModal">
+        <div class="missBox">
+            <img src="http://f.appstore.zshiliu.com/clubberimg/h5active/miss.png" alt="" />
+        </div>
+        <div class="missInfo">
+            <p class="info_one">很抱歉</p>
+            <p class="info_two">本次未中奖</p>
+        </div>
+        <div class="missBtn">
+            <img class="returnBtn" src="http://f.appstore.zshiliu.com/clubberimg/h5active/btn-bg.png">
+            <p class="btnInfo btnClose">关闭</p>
+        </div>
+    </div>
+    <div class="mask"></div>
+    <div class="maskTwo"></div>
+    <div class="message">
+        <div class="message-box">
+            <p>竹签数没有达到抽奖条件</p>
+        </div>
+    </div>
+</body>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/jquery.rotate.min.js"></script>
+<script src="../js/turntable.js"></script>
+<script>
+    /* (function(){
+        console.log(  window.parent )
+        window.parent.hide1();
+
+    })() */
+</script>
+
+</html>
